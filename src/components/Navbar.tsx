@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { CodeSquare, Github, Moon, Sun } from "lucide-react";
+import { Code2, Moon, Sun } from "lucide-react";
 import {
   SignedIn,
   SignedOut,
@@ -65,7 +65,7 @@ export default function Navbar() {
           <div className="flex items-center gap-2">
             <Button asChild variant="outline" size="sm" className="size-10">
               <Link href="https://github.com/your-repo">
-                <Github className="size-5" />
+                <Code2 className="size-5" />
               </Link>
             </Button>
             {/* Theme Toggle */}
