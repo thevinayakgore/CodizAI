@@ -1,9 +1,18 @@
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
+// import { Features } from '@/components/Features'
+
 export default function Home() {
   return (
     <>
-      <main className="container flex items-start p-20 bg-muted/50 max-w-7xl m-auto w-full min-h-screen">
-        <h1 className="text-5xl font-medium">Codiz AI</h1>
+      <Navbar />
+      <main>
+        <Hero />
+        {/* <Features /> */}
+        {/* Add more sections like Testimonials, Pricing */}
       </main>
+      <Footer />
     </>
   );
 }
