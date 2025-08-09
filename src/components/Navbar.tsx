@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
-import { Code2, Moon, Sun } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
+import { FiGithub } from "react-icons/fi";
 import {
   SignedIn,
   SignedOut,
@@ -65,7 +66,7 @@ export default function Navbar() {
           <div className="flex items-center gap-2">
             <Button asChild variant="outline" size="sm" className="size-10">
               <Link href="https://github.com/your-repo">
-                <Code2 className="size-5" />
+                <FiGithub className="size-5" />
               </Link>
             </Button>
             {/* Theme Toggle */}
